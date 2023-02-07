@@ -1,5 +1,4 @@
 <?php
-
     // Only process POST requests.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -48,5 +47,4 @@
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
     }
-
 ?>
